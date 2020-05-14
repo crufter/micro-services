@@ -1,4 +1,4 @@
-module logspammer
+module github.com/crufter/micro-services/logspammer
 
 go 1.13
 

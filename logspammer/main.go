@@ -1,14 +1,14 @@
 package main
 
 import (
-	"logspammer/handler"
-	"logspammer/subscriber"
+	"github.com/crufter/micro-services/logspammer/handler"
+	"github.com/crufter/micro-services/logspammer/subscriber"
 	"time"
 
 	"github.com/micro/go-micro/v2"
 	log "github.com/micro/go-micro/v2/logger"
 
-	logspammer "logspammer/proto/logspammer"
+	logspammer "github.com/crufter/micro-services/logspammer/proto/logspammer"
 )
 
 func init() {

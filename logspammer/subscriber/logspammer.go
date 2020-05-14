@@ -4,7 +4,7 @@ import (
 	"context"
 	log "github.com/micro/go-micro/v2/logger"
 
-	logspammer "logspammer/proto/logspammer"
+	logspammer "github.com/crufter/micro-services/logspammer/proto/logspammer"
 )
 
 type Logspammer struct{}
