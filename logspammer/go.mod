@@ -6,4 +6,5 @@ require (
 	github.com/golang/protobuf v1.4.0
 	github.com/micro/go-micro/v2 v2.8.1-0.20200609104731-cdd8f9fd82c5
 	google.golang.org/protobuf v1.21.0
+	google.golang.org/grpc v1.26.0
 )
