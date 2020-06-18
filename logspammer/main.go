@@ -1,9 +1,10 @@
 package main
 
 import (
+	"time"
+
 	"github.com/crufter/micro-services/logspammer/handler"
 	"github.com/crufter/micro-services/logspammer/subscriber"
-	"time"
 
 	"github.com/micro/go-micro/v2"
 	log "github.com/micro/go-micro/v2/logger"
@@ -14,7 +15,7 @@ import (
 func init() {
 	go func() {
 		for {
-			log.Info("These logs will happen until you stop me! Never stop never stopping!")
+			log.Info("Branch checkout test")
 			time.Sleep(2 * time.Second)
 		}
 	}()
